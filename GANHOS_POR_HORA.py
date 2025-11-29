@@ -15,7 +15,7 @@ while True:
         salario = float(input(f"{nome}, digite seu salário mensal (R$): "))
         break
     except ValueError:
-        print("❌ Digite um número válido! Ex: 2500.00")
+        print(" Digite um número válido! Ex: 2500.00")
 
 # Validação simples para horas
 while True:
